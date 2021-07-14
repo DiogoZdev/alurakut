@@ -22,6 +22,38 @@ const GlobalStyle = createGlobalStyle`
     height: auto;
     display: block;
   }
+
+  h1, h2, h3{
+    line-height:125%;
+    font-weight:normal;
+  }
+
+  hr{
+    color:#eee;
+    margin:10px 0;
+  }
+
+
+  input{
+    width:100%;
+    height:2.5rem;
+    border-radius:100px;
+    background-color:#eee;
+    border:1px solid #cacaca;
+    margin:10px 0;
+    padding-left:1.5rem;
+  }
+
+  button{
+    background-color:#6b8fbe;
+    height:2.5rem;
+    border-radius:100px;
+    border:#7c9fdf;
+    padding:0 1.5rem;
+    color:#fff;
+    font-weight:bold;
+  }
+
   ${AlurakutStyles}
 `
 
